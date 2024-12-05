@@ -1,0 +1,8 @@
+# Installed packages may change
+
+numpy==1.21.6
+pandas==1.3.5
+matplotlib==3.4.3
+folium==0.12.1
+geopandas==0.10.2
+googlemaps==4.6.0
