@@ -1,5 +1,7 @@
 # Installed packages may change
 
+wheel
+pipwin
 numpy==1.19.5
 matplotlib==3.3.4
 pandas==1.1.5
