@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 def load_data():
     # Load gas station names and distance matrix
-    gas_stations = pd.read_csv('dataset/gas_stations.csv')
-    distances = pd.read_csv('dataset/x-y_distances.csv', index_col=0)
+    gas_stations = pd.read_csv('dataset/lat_long.csv')
+    distances = pd.read_csv('dataset/xy_distances.csv', index_col=0)
     return gas_stations, distances
 
 def calculate_total_distance(route, distance_matrix):
